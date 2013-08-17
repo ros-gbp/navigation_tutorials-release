@@ -1,0 +1,12 @@
+Source: ros-hydro-laser-scan-publisher-tutorial
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: http://ros.org/wiki/laser_scan_publisher_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-laser-scan-publisher-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Description: The laser_scan_publisher_tutorial package
