@@ -1,0 +1,12 @@
+Source: ros-hydro-navigation-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://www.ros.org/wiki/navigation_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-navigation-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-laser-scan-publisher-tutorial, ros-hydro-navigation-stage, ros-hydro-odometry-publisher-tutorial, ros-hydro-point-cloud-publisher-tutorial, ros-hydro-robot-setup-tf-tutorial, ros-hydro-roomba-stage, ros-hydro-simple-navigation-goals-tutorial
+Description: Navigation related tutorials.
