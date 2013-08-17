@@ -1,0 +1,12 @@
+Source: ros-hydro-robot-setup-tf-tutorial
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://ros.org/wiki/robot_setup_tf_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-robot-setup-tf-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-roscpp, ros-hydro-tf
+Description: The robot_setup_tf_tutorial package
