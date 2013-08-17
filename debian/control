@@ -1,0 +1,12 @@
+Source: ros-hydro-navigation-stage
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-amcl, ros-hydro-catkin, ros-hydro-fake-localization, ros-hydro-gmapping, ros-hydro-map-server, ros-hydro-move-base, ros-hydro-stage-ros
+Homepage: http://www.ros.org/wiki/navigation_stage
+Standards-Version: 3.9.2
+
+Package: ros-hydro-navigation-stage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-amcl, ros-hydro-fake-localization, ros-hydro-gmapping, ros-hydro-map-server, ros-hydro-move-base, ros-hydro-stage-ros
+Description: This package holds example launch files for running the ROS navigation stack in stage.
