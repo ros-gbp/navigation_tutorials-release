@@ -1,0 +1,12 @@
+Source: ros-hydro-simple-navigation-goals-tutorial
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://ros.org/wiki/simple_navigation_goals_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-simple-navigation-goals-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-tf
+Description: The simple_navigation_goals_tutorial package
