@@ -1,0 +1,12 @@
+Source: ros-hydro-roomba-stage
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-fake-localization, ros-hydro-map-server, ros-hydro-move-base, ros-hydro-stage-ros
+Homepage: http://ros.org/wiki/roomba_stage
+Standards-Version: 3.9.2
+
+Package: ros-hydro-roomba-stage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-fake-localization, ros-hydro-map-server, ros-hydro-move-base, ros-hydro-stage-ros
+Description: The roomba_stage package
