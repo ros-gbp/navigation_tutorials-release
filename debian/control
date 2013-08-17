@@ -1,0 +1,12 @@
+Source: ros-hydro-odometry-publisher-tutorial
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://ros.org/wiki/odometry_publisher_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-odometry-publisher-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-tf
+Description: The odometry_publisher_tutorial package
