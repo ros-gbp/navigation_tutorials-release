@@ -1,0 +1,12 @@
+Source: ros-indigo-navigation-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/navigation_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-navigation-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-laser-scan-publisher-tutorial, ros-indigo-navigation-stage, ros-indigo-odometry-publisher-tutorial, ros-indigo-point-cloud-publisher-tutorial, ros-indigo-robot-setup-tf-tutorial, ros-indigo-roomba-stage, ros-indigo-simple-navigation-goals-tutorial
+Description: Navigation related tutorials.
