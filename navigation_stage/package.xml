@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>navigation_stage</name>
-  <version>0.2.1</version>
+  <version>0.2.2</version>
   <description>
     This package holds example launch files for running the ROS navigation stack in stage.
   </description>
@@ -17,13 +17,6 @@
   <author>Eitan Marder-Eppstein</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-
-  <build_depend>amcl</build_depend>
-  <build_depend>fake_localization</build_depend>
-  <build_depend>gmapping</build_depend>
-  <build_depend>map_server</build_depend>
-  <build_depend>move_base</build_depend>
-  <build_depend>stage_ros</build_depend>
 
   <run_depend>amcl</run_depend>
   <run_depend>fake_localization</run_depend>
