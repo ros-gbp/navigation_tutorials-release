@@ -1,0 +1,12 @@
+Source: ros-jade-navigation-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://www.ros.org/wiki/navigation_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-jade-navigation-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-laser-scan-publisher-tutorial, ros-jade-navigation-stage, ros-jade-odometry-publisher-tutorial, ros-jade-point-cloud-publisher-tutorial, ros-jade-robot-setup-tf-tutorial, ros-jade-roomba-stage, ros-jade-simple-navigation-goals-tutorial
+Description: Navigation related tutorials.
