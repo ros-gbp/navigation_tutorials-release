@@ -1,3 +1,34 @@
+## navigation_tutorials (indigo) - 0.2.3-0
+
+The packages in the `navigation_tutorials` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo navigation_tutorials` on `Thu, 24 Mar 2016 23:01:12 -0000`
+
+These packages were released:
+- `laser_scan_publisher_tutorial`
+- `navigation_stage`
+- `navigation_tutorials`
+- `odometry_publisher_tutorial`
+- `point_cloud_publisher_tutorial`
+- `robot_setup_tf_tutorial`
+- `roomba_stage`
+- `simple_navigation_goals_tutorial`
+
+Version of package(s) in repository `navigation_tutorials`:
+
+- upstream repository: https://github.com/ros-planning/navigation_tutorials.git
+- release repository: https://github.com/ros-gbp/navigation_tutorials-release.git
+- rosdistro version: `0.2.2-0`
+- old version: `0.2.2-0`
+- new version: `0.2.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## navigation_tutorials (jade) - 0.2.2-0
 
 The packages in the `navigation_tutorials` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade navigation_tutorials` on `Fri, 18 Mar 2016 23:20:44 -0000`
