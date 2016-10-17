@@ -1,3 +1,34 @@
+## navigation_tutorials (kinetic) - 0.2.3-0
+
+The packages in the `navigation_tutorials` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic navigation_tutorials` on `Mon, 17 Oct 2016 17:26:38 -0000`
+
+These packages were released:
+- `laser_scan_publisher_tutorial`
+- `navigation_stage`
+- `navigation_tutorials`
+- `odometry_publisher_tutorial`
+- `point_cloud_publisher_tutorial`
+- `robot_setup_tf_tutorial`
+- `roomba_stage`
+- `simple_navigation_goals_tutorial`
+
+Version of package(s) in repository `navigation_tutorials`:
+
+- upstream repository: https://github.com/ros-planning/navigation_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.39`
+
+
 ## navigation_tutorials (jade) - 0.2.3-0
 
 The packages in the `navigation_tutorials` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade navigation_tutorials` on `Thu, 24 Mar 2016 23:07:30 -0000`
