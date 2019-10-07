@@ -1,0 +1,12 @@
+Source: ros-melodic-navigation-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://www.ros.org/wiki/navigation_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-melodic-navigation-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-laser-scan-publisher-tutorial, ros-melodic-navigation-stage, ros-melodic-odometry-publisher-tutorial, ros-melodic-point-cloud-publisher-tutorial, ros-melodic-robot-setup-tf-tutorial, ros-melodic-roomba-stage, ros-melodic-simple-navigation-goals-tutorial
+Description: Navigation related tutorials.
